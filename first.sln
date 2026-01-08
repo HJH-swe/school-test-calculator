@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.0.11222.15 d18.0
+VisualStudioVersion = 18.0.11222.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first", "first.csproj", "{CEDD81F0-46B8-7AD3-F217-7136BDEB8C6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{20686045-A1C9-45E2-8056-D2AC781AD090}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{931B4179-7593-4345-9B9A-E0DC19095EF3}"
+	ProjectSection(SolutionItems) = preProject
+		tests.yml = tests.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{931B4179-7593-4345-9B9A-E0DC19095EF3} = {20686045-A1C9-45E2-8056-D2AC781AD090}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C169C6E1-5021-418F-A5D6-6941EB4E33BE}
